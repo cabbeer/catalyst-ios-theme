@@ -1,4 +1,4 @@
-catalyst-ios-theme
+CATALYST
 ==================
 
 Catalyst iOS Theme for Jailbroken Devices
