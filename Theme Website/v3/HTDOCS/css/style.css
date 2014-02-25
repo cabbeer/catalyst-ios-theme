@@ -1,0 +1,78 @@
+body{background: #f2f2f2; /* Old browsers */
+background: -moz-linear-gradient(left, #f2f2f2 0%, #ffffff 50%, #f2f2f2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f2f2f2), color-stop(50%,#ffffff), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #f2f2f2 0%,#ffffff 50%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #f2f2f2 0%,#ffffff 50%,#f2f2f2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #f2f2f2 0%,#ffffff 50%,#f2f2f2 100%); /* IE10+ */
+background: linear-gradient(left, #f2f2f2 0%,#ffffff 50%,#f2f2f2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#f2f2f2',GradientType=1 ); /* IE6-9 */
+font-family: proxima-nova-1,proxima-nova-2,sans-serif;}
+
+#container_inner{padding-top:12%;}
+.left_inner{text-align:center;}
+.right_inner{padding:0 20px;line-height:1.9;color:#777;text-shadow:1px 1px  0 #fff;}
+.right_inner h1{display:inline;font-size:12px;font-weight:500;}
+.right_inner p{display:inline;font-size:12px;font-weight:500;}
+.mailchimp{padding:60px 0;margin-right:20px;}
+.paypal{text-align:center;}
+
+#footer{text-align:center;text-transform:uppercase;font-size:10px;margin:80px 0 0 0;}
+#footer a{text-decoration:none;color:#777;}
+#footer a:hover{color:#000;}
+#footer p{display:inline;}
+#footer ul{display:inline;list-style-type:none;}
+#footer li{display:inline;padding:0 10px 0 0;}
+
+
+
+/* ********** */
+				
+@media screen and (max-width: 800px) {
+
+	.copy{width:70%;margin:40px auto 0 auto;}	
+   .mailchimp{padding:60px 0;margin:0 20px;}
+	
+}
+
+/* --------------------------------------------
+  Mobile
+-------------------------------------------- */
+
+@media handheld and (max-width: 480px),
+       screen and (max-device-width: 480px),
+       screen and (max-width: 600px) {
+
+		.copy{width:95%;margin:20px auto 0 auto;}
+		#footer li{display:inline;padding:0 5px 0 0;}
+	
+}
+
+/* --------------------*/
+/* --------------------*/
+/* --------------------*/
+/* --------------------*/
+.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
+.hidden { display: none; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important;
+  -ms-filter: none !important; } 
+  a, a:visited { color: #444 !important; text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; }
+  tr, img { page-break-inside: avoid; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3{ page-break-after: avoid; }
+}

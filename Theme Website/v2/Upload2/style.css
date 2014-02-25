@@ -1,0 +1,54 @@
+
+body{
+	font-family:"proxima-nova-1","proxima-nova-2",tahoma,sans-serif;font-size:14px;
+	background-color: #f0f1f3;
+}
+
+#container{
+	position: relative;
+	margin: 50px auto 50px auto;
+	width: 1000px;
+
+}
+#header {
+	position:relative;
+	top:50px;
+	left:151px;
+	width:0px;
+}
+#form {
+	float:left;
+	position:relative;
+	width:420px;
+	top:0px;
+	left:450px;
+	padding:0px 0px 0px 10px;
+}
+#info{
+	text-align:center;
+	
+}
+#info p{
+	font-family:"proxima-nova-1","proxima-nova-2",tahoma,sans-serif;font-size:14px;
+}
+#phone {
+	clear:both;
+	position:relative;
+	float:left;
+	top:85px;
+	width:100px;
+
+}
+#footer {
+	clear:both;
+	padding:10px auto 20px auto;
+	top:440px;
+	width:100%;
+	font: normal 100% Arial, sans-serif;font-size: 12px;
+
+}
+#footer2{
+	float:left;
+	top:960px;
+	width:100%;
+}
